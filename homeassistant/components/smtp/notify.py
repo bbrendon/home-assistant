@@ -73,8 +73,8 @@ def get_service(hass, config, discovery_info=None):
         config.get(CONF_SENDER_NAME),
         config.get(CONF_DEBUG))
 
-    if mail_service.connection_is_valid():
-        return mail_service
+    #if mail_service.connection_is_valid():
+    return mail_service
 
     return None
 
