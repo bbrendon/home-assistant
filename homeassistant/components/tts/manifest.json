@@ -1,13 +1,11 @@
 {
-  "domain": "tts",
-  "name": "Tts",
-  "documentation": "https://www.home-assistant.io/components/tts",
+  "domain": "amazon_polly",
+  "name": "Amazon polly",
+  "documentation": "https://www.home-assistant.io/components/amazon_polly",
   "requirements": [
-    "mutagen==1.42.0"
+    "boto3==1.9.233"
   ],
-  "dependencies": [
-    "http"
-  ],
+  "dependencies": [],
   "codeowners": [
     "@robbiet480"
   ]
